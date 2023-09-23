@@ -6,8 +6,10 @@ body {
   background-color: rgba(224, 223, 223, 0.795);
 }
 
-.header {
+.backgorund-white {
   background-color: white;
+}
+.header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -40,4 +42,25 @@ body {
   margin-left: 10px; /* Aggiungi spazio a sinistra per separare i bottoni */
   cursor: pointer;
   opacity: 0.5;
+}
+.padding {
+  padding: 50px;
+}
+.title {
+  align-items: center;
+}
+.check {
+  color: rgb(42, 207, 42);
+}
+.error {
+  color: red;
+}
+.list-button {
+  background-color: rgb(33, 192, 255); /* Colore di sfondo blu */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 20px;
+  cursor: pointer;
+  margin-left: 10px;
 }
