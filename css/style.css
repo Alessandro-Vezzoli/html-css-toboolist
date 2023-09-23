@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.backgorund {
+  background-color: rgba(224, 223, 223, 0.795);
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: -9px;
+  padding-right: 50px;
+}
+
+.header img {
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.add-task-button {
+  background-color: rgb(33, 192, 255); /* Colore di sfondo blu */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.add-section-button {
+  background-color: white;
+  color: gray;
+  border: 2px solid gray; /* Bordo grigio */
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-left: 10px; /* Aggiungi spazio a sinistra per separare i bottoni */
+  cursor: pointer;
+  opacity: 0.5;
+}
